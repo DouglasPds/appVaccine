@@ -1,8 +1,8 @@
 import React from 'react'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs'
 
-import { DateVacine } from '../screens/DateVacine'
-import { HumanVacine } from '../screens/HumanVacine'
+import { DateVaccine } from '../screens/DateVaccine'
+import { VaccinationCard } from '../screens/VaccinationCard'
 
 const { Navigator, Screen } = createBottomTabNavigator()
 
@@ -11,12 +11,12 @@ export const AppRoutes = () => {
 		<Navigator>
 			<Screen
 				name="Vacinação"
-				component={DateVacine}
+				component={DateVaccine}
 			/>
 
 			<Screen
 				name="Histórico"
-				component={HumanVacine}
+				component={VaccinationCard}
 			/>
 		</Navigator>
   )

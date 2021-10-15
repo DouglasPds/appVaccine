@@ -7,7 +7,7 @@ import * as Date from '../../json/DateValues.json'
 import { Container, Title } from './styles'
 const { Dates } = Date
 
-export const DateVacine: React.FC = () => {
+export const DateVaccine: React.FC = () => {
   return (
 		<Container>
 			<Title>Datas de vacinação</Title>
