@@ -2,7 +2,7 @@ import styled from 'styled-components/native'
 
 export const Container = styled.View`
 	background-color: white;
-	width: 100%;
+	width: 350px;
 	border-radius: 5px;
 	padding: 18px 22px;
 	margin-bottom: 10px;
