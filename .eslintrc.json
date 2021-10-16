@@ -21,6 +21,7 @@
     ],
     "rules": {
         "no-use-before-define": "off",
-				"no-tabs": "off"
+				"no-tabs": "off",
+				"no-mixed-spaces-and-tabs": "off"
     }
 }
